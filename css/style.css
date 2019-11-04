@@ -21,3 +21,11 @@
     background-color: white;
     overflow: hidden;
   }
+
+  .navbar{
+    justify-content: flex-start;
+  }
+
+  .navbar-toggler{
+    margin-right: 1rem;
+  }
