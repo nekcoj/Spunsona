@@ -32,3 +32,15 @@ body{
   .navbar-toggler{
     margin-right: 1rem;
   }
+
+
+.page-header:after {
+    background: none repeat scroll #000000;
+    bottom: -1px;
+    content: "";
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
