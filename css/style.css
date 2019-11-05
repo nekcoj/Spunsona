@@ -1,5 +1,5 @@
 body{
-    padding-top: 65px;
+    padding-top: 75px;
     background: #171717;
 }
 .faq-drop {
@@ -39,7 +39,7 @@ body{
     border-radius: 15px;
   }
   .text-box h4{
-    font-size: 125%;
+    font-size: 110%;
   }
   .text-box{
     border-radius: 15px;
@@ -49,3 +49,9 @@ body{
     font-size: 100%;
     color: #F0FCCB;
   }
+.textcolor1{
+  color: #CAF742;
+}
+.textcolor2{
+    color: #F0FCCB;
+}
