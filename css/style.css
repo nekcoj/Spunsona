@@ -1,5 +1,6 @@
 body{
     padding-top: 65px;
+    background: #171717;
 }
 .faq-drop {
     background-color: #eee;
@@ -31,4 +32,20 @@ body{
 
   .navbar-toggler{
     margin-right: 1rem;
+  }
+  .kund-box{
+    background: #5F5566;
+    color: #CAF742;
+    border-radius: 15px;
+  }
+  .text-box h4{
+    font-size: 125%;
+  }
+  .text-box{
+    border-radius: 15px;
+    background: #33202A;
+  }
+  .text-box h5{
+    font-size: 100%;
+    color: #F0FCCB;
   }
