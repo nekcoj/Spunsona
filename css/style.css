@@ -1,3 +1,6 @@
+body{
+    padding-top: 65px;
+}
 .faq-drop {
     background-color: #eee;
     color: #444;
@@ -11,7 +14,7 @@
     transition: 0.4s;
   }
   
-  .active, .faq-drop:hover {
+  .faq-drop:hover {
     background-color: #ccc; 
   }
   
