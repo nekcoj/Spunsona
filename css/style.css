@@ -45,6 +45,10 @@ body{
     border-radius: 15px;
     background: #33202A;
   }
+  .text-box > h2{
+    margin:0;
+    padding: 0;
+  }
   .text-box h5{
     font-size: 100%;
     color: #F0FCCB;
@@ -53,7 +57,7 @@ body{
   color: #CAF742;
 }
 .textcolor2{
-    color: #F0FCCB;
+  color: #F0FCCB;
 }
 .bgcolor1{
   background: #171717;
