@@ -1,4 +1,4 @@
-var acc = document.getElementsByClassName("faq-drop");
+var acc = document.getElementsByClassName("question");
 var i;
 
 for (i = 0; i < acc.length; i++) {
