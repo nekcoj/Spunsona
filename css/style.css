@@ -45,6 +45,9 @@ body {
   background-clip: padding-box; 
   border-right: 2px solid #E0E722;
 }
+.border-nav{
+  border-bottom: 2px solid #E0E722;
+}
 
 .textcolor1 {
   color: #FFFC00;
