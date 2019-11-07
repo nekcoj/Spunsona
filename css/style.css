@@ -159,13 +159,12 @@ body {
   color: white;
 }
 
-
-.article-one > h3, p{float: right;}
-
 .news-article{
   background-clip: padding-box !important;
   border: 3px solid transparent !important;  
   border-radius: .50rem;
   background-color: transparent;
 }
+
+.news-article:hover{color: white;}
   /*news slut*/
