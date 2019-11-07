@@ -1,5 +1,6 @@
 body{
-    padding-top: 65px;
+    padding-top: 75px;
+    background: #171717;
 }
 .faq-drop {
     background-color: #eee;
@@ -20,12 +21,14 @@ body{
   .faq-drop:hover {
     background-color: #ccc; 
   }
-  
   .faq-answer {
     padding: 0 18px;
     display: none;
     background-color: white;
     overflow: hidden;
+  }
+  .faq-answer p{
+    padding-top: 10px;
   }
 
   .faq-header p{
@@ -43,9 +46,44 @@ body{
   .navbar-toggler{
     margin-right: 1rem;
   }
-  #article1 > h3, p{
-    float: right;
-    }
+  .kund-box{
+    background: #5F5566;
+    color: #CAF742;
+    /* border-radius: 15px; */
+  }
+  .text-box h4{
+    font-size: 110%;
+  }
+  .text-box{
+    /* border-radius: 15px; */
+    background: #33202A;
+  }
+  .text-box > h2{
+    margin:0;
+    padding: 0;
+  }
+  .text-box h5{
+    font-size: 100%;
+    color: #F0FCCB;
+  }
+.textcolor1{
+  color: #CAF742;
+}
+.textcolor2{
+  color: #F0FCCB;
+}
+.bgcolor1{
+  background: #171717;
+}
+.bgcolor2{
+  background: #33202A;
+}
+.bgcolor3{
+  background: #5F5566;
+}
+.form-group p{
+  padding-top: 10px;
+}
   
   .top-img{
         width: 100%;
@@ -68,4 +106,25 @@ body{
     height:40%;
     width:100%;
     object-fit: cover;
+
+  .fas{
+    color:green;
+  }
+
+  .fab{
+    color: #3b5998;
+    font-size: 40px;
+    padding-right: 30px;
+  }
+
+  .insta{
+    color: #8a3ab9;
+  }
+
+  .twitter{
+    color: #38A1F3;
+  }
+
+  .fab:hover{
+    opacity: 0.5;
   }
