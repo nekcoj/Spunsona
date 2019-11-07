@@ -13,6 +13,15 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+$('.hover-box').mouseover(function(e) {
+  console.log("a")
+  $(this).parent().addClass('hover');
+});
+
+$('.hover-box').mouseout( function(e) {
+  $(this).parent().removeClass('hover');
+});
+
 
 
 // Kontaktformulär.
