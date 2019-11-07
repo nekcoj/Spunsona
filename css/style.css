@@ -2,47 +2,6 @@ body {
   padding-top: 65px;
   background: #000000;
 }
-.faq-drop {
-  background-color: #4d4c44;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 1s;
-  font-weight: bold;
-}
-
-.space {
-  min-height: 5px;
-}
-
-.faq-drop:hover {
-  background-color: #ccc;
-}
-
-.faq-answer {
-  padding: 0 18px;
-  display: none;
-  background-color: white;
-  overflow: hidden;
-}
-
-.faq-answer p {
-  padding-top: 10px;
-}
-
-.faq-header p {
-  margin: 0 auto;
-}
-
-.logotype {
-  max-height: 100px;
-  max-width: 100px;
-}
 
 .navbar {
   justify-content: flex-start;
