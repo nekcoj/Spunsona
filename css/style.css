@@ -66,6 +66,14 @@ body {
   font-size: 100%;
   color: #f0fccb;
 }
+.catwoman{
+  background-clip: padding-box; 
+  border-left: 2px solid #777666;
+}
+.batman{
+  background-clip: padding-box; 
+  border-right: 2px solid #777666;
+}
 .textcolor1 {
   color: #ffd000;
 }
