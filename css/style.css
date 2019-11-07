@@ -91,15 +91,15 @@ body {
   font-size: 40px;
 }
 
-.facebook{
+.facebook:hover{
   opacity: 0.5;
 }
 
-.insta{
+.insta:hover{
   opacity: 0.5;
 }
 
-.phone-alt{
+.phone-alt:hover{
   opacity: 0.5;
 }
 
