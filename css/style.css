@@ -142,14 +142,34 @@ body {
 
 .insta {
   color: #8a3ab9;
+  padding-right: 30px;
+  font-size: 40px;
 }
 
 .twitter {
   color: #38a1f3;
+  padding-right: 30px;
+  font-size: 40px;
 }
 
-.facebook .insta .phone-alt .twitter:hover {
+.facebook{
   opacity: 0.5;
+}
+
+.insta{
+  opacity: 0.5;
+}
+
+.phone-alt{
+  opacity: 0.5;
+}
+
+.twitter:hover {
+  opacity: 0.5;
+}
+
+.kontaktinfo{
+
 }
 
 .page-header:after {
