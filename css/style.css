@@ -21,12 +21,14 @@ body{
   .faq-drop:hover {
     background-color: #ccc; 
   }
-  
   .faq-answer {
     padding: 0 18px;
     display: none;
     background-color: white;
     overflow: hidden;
+  }
+  .faq-answer p{
+    padding-top: 10px;
   }
 
   .faq-header p{
@@ -47,13 +49,13 @@ body{
   .kund-box{
     background: #5F5566;
     color: #CAF742;
-    border-radius: 15px;
+    /* border-radius: 15px; */
   }
   .text-box h4{
     font-size: 110%;
   }
   .text-box{
-    border-radius: 15px;
+    /* border-radius: 15px; */
     background: #33202A;
   }
   .text-box > h2{
@@ -78,4 +80,7 @@ body{
 }
 .bgcolor3{
   background: #5F5566;
+}
+.form-group p{
+  padding-top: 10px;
 }
