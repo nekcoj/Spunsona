@@ -43,9 +43,6 @@ body{
   .navbar-toggler{
     margin-right: 1rem;
   }
-  #article1 > h3, p{
-    float: right;
-    }
   
   .top-img{
         width: 100%;
@@ -68,4 +65,25 @@ body{
     height:40%;
     width:100%;
     object-fit: cover;
+
+  .fas{
+    color:green;
+  }
+
+  .fab{
+    color: #3b5998;
+    font-size: 40px;
+    padding-right: 30px;
+  }
+
+  .insta{
+    color: #8a3ab9;
+  }
+
+  .twitter{
+    color: #38A1F3;
+  }
+
+  .fab:hover{
+    opacity: 0.5;
   }
