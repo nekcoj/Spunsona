@@ -110,26 +110,6 @@ body {
   padding-top: 10px;
 }
 
-.top-img {
-  width: 100%;
-}
-
-.second-img {
-  width: 100%;
-  height: 40%;
-  object-fit: cover;
-  padding: 10px 0;
-}
-.article-one {
-  padding: 10px 0;
-  background-color: gray;
-}
-
-#mouse {
-  height: 40%;
-  width: 100%;
-  object-fit: cover;
-}
 .fa-phone-alt {
   color: green;
 }
@@ -166,10 +146,6 @@ body {
 
 .twitter:hover {
   opacity: 0.5;
-}
-
-.kontaktinfo{
-
 }
 
 .page-header:after {
@@ -210,3 +186,27 @@ body {
 .forwho-innerbox section{
   padding: 5%;
 }
+
+.form-group p{padding-top: 10px;}
+  
+  /*NEWS CSS*/
+#first-news-img {width: 100%;}
+ 
+.article-one {
+      border-radius: .60rem;
+}
+
+.article-one:hover {
+  color: white;
+}
+
+
+.article-one > h3, p{float: right;}
+
+.news-article{
+  background-clip: padding-box !important;
+  border: 3px solid transparent !important;  
+  border-radius: .50rem;
+  background-color: transparent;
+}
+  /*news slut*/
