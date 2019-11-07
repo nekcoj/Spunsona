@@ -1,6 +1,6 @@
+//FAQ-dropdown
 var acc = document.getElementsByClassName("question");
 var i;
-
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
@@ -13,7 +13,10 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-
+//home
+$(document).on('click', '.lightbulb', () => {
+$('.picswap > img, .startlinks, .navbar').toggleClass('hidden');
+});
 
 // Kontaktformulär.
 (function() {

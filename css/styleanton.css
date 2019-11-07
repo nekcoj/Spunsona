@@ -55,3 +55,29 @@ i:hover{
     color: #ffd000;
     transition: 1s;
 }
+.picswap > img{
+    max-height: 500px;
+}
+.start{
+    height:80vh;
+    display: flex;
+    align-items: center;
+}
+.hidden{
+    display: none;
+}
+.startlinks{
+    height: 60px;
+    background-color:#ffd000;    
+    color: black;
+    text-decoration: none;
+}
+.startlinks > h3{
+    margin-top: 5%;
+}
+.startlinks:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #e6a800;
+    transition: 0.5s;
+}
