@@ -1,6 +1,6 @@
 body {
   padding-top: 65px;
-  background: #000000;
+  background: #0F0F0F;
 }
 
 .navbar {
@@ -12,8 +12,8 @@ body {
 }
 
 .kund-box {
-  background: #777666;
-  color: #ffd000;
+  background: #E0E722;
+  color: #FFFC00;
   /* border-radius: 15px; */
 }
 
@@ -23,7 +23,7 @@ body {
 
 .text-box {
   /* border-radius: 15px; */
-  background: #2A2A00;
+  background: #000000;
 }
 
 .text-box > h2 {
@@ -45,8 +45,9 @@ body {
   background-clip: padding-box; 
   border-right: 2px solid #777666;
 }
+
 .textcolor1 {
-  color: #ffd000;
+  color: #FFFC00;
 }
 
 .textcolor2 {
@@ -58,11 +59,15 @@ body {
 }
 
 .bgcolor2 {
-  background: #2A2A00;
+  background: rgb(95,95,96);
 }
 
 .bgcolor3 {
   background: #777666;
+}
+.aboutus{
+  border-left: 5px solid #E0E722;
+  border-right: 5px solid #E0E722;
 }
 
 .form-group p {
