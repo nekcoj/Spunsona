@@ -1,8 +1,8 @@
 body {
-  padding-top: 65px;
+  padding-top: 55px;
   background: #0F0F0F;
 }
-
+/* NAVBAR START */
 .navbar {
   justify-content: flex-start;
 }
@@ -10,7 +10,20 @@ body {
 .navbar-toggler {
   margin-right: 1rem;
 }
-
+.fa-bars{
+  font-size: 28px;
+}
+a:hover{
+  color: #E0E722;
+}
+li:hover{
+  color:#E0E722;
+}
+.dropdown-menu > a:hover{
+  background: #000000;
+  color: #E0E722;
+}
+/* NAVBAR END */
 .kund-box {
   background: #E0E722;
   color: #FFFC00;
