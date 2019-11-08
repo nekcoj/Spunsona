@@ -183,36 +183,37 @@ li:hover{
 
 .form-group p{padding-top: 10px;}
   
-.top-img{
-  width: 100%;
-}
+  .top-img{
+        width: 100%;
+    }
 
-.second-img{
-  width: 100%;
-  height: 40%;
-  object-fit: cover;
-  padding: 10px 0;
-}
+  .second-img{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    padding: 10px 0;
+  }
 
-.article-one{
-  padding: 10px 0;
-  background-color: gray;
-}
+  .article-one{
+    padding: 10px 0;
+    background-color: gray;
 
-#mouse{
-  height:40%;
-  width:100%;
-  object-fit: cover;
-}
+  }
 
-.test{
-  opacity: 0.5;
-  background-color: rgb(33, 2, 88);
-  color: white;
-  padding: 5px;
-}
-
-/*NEWS CSS*/
+  #mouse{
+    height:40%;
+    width:100%;
+    object-fit: cover;
+  }
+  /*  HOW IT WORKS  */
+  .textruta{
+    opacity: 0.5;
+    background-color: rgb(33, 2, 88);
+    color: white;
+    padding: 5px;
+  }
+  
+  /*NEWS CSS*/
 #first-news-img {width: 100%;}
  
 .article-one {
