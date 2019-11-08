@@ -214,32 +214,40 @@ li:hover{
   }
   
   /*NEWS CSS*/
+.news-jumbo{
+  background-color: #777666;
+}  
+
+#news{
+  background: #FFFC00;
+}
 #first-news-img {width: 100%;}
  
 .article-one {
   border-radius: .60rem;
+  background-color: black;
 }
 
-.article-one:hover {
-  color: white;
+.newspage{  /*body i news*/
+  background-color: #FFFC00;
 }
-
-.news-article:hover{color: white;}
 
 .news-article{
   background-clip: padding-box !important;
   border: 3px solid transparent !important;  
   border-radius: .50rem;
-  background-color: transparent;
+  background-color: black;
 }
 
 /*news slut*/
 /* FONTS START */
 p{
     font-family: 'Roboto Slab', serif;
+    color: #f0fccb;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Chivo', sans-serif;
+    color: #FFFC00;
 }
 button{
     font-family: 'Roboto Slab', sans-serif;
