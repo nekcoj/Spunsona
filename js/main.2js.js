@@ -13,6 +13,7 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+<<<<<<< HEAD
 // function update(e){
 //   var x = e.clientX || e.touches[0].clientX
 //   var y = e.clientY || e.touches[0].clientY
@@ -29,6 +30,15 @@ for (i = 0; i < acc.length; i++) {
 // home
 $(document).on('click', '.lightbulb', () => {
 $('.picswap > img, .startlinks, .navbar').toggleClass('hidden');
+=======
+$('.hover-box').mouseover(function(e) {
+  console.log("a")
+  $(this).parent().addClass('hover');
+});
+
+$('.hover-box').mouseout( function(e) {
+  $(this).parent().removeClass('hover');
+>>>>>>> Alexandra
 });
 
 
