@@ -218,18 +218,13 @@ li:hover{
   background-color: #777666;
 }  
 
-#news{
-  background: #FFFC00;
-}
+
 #first-news-img {width: 100%;}
  
 .article-one {
   border-radius: .60rem;
   background-color: black;
-}
-
-.newspage{  /*body i news*/
-  background-color: #FFFC00;
+  border: 3px solid #FFFC00;
 }
 
 .news-article{
@@ -237,6 +232,7 @@ li:hover{
   border: 3px solid transparent !important;  
   border-radius: .50rem;
   background-color: black;
+  border: 3px solid #FFFC00;
 }
 
 /*news slut*/
