@@ -49,6 +49,7 @@ body {
   border-bottom: 2px solid #E0E722;
 }
 
+/* COLORS & BORDERS START */
 .textcolor1 {
   color: #FFFC00;
 }
@@ -76,11 +77,16 @@ body {
   border-left: 5px solid #E0E722;
   border-right: 5px solid #E0E722;
 }
+.whole-border-sm{
+  border: 2px solid #E0E722;
+}
+/* COLORS & BORDERS END */
 
 .form-group p {
   padding-top: 10px;
 }
 
+/* ICONS START */
 .fa-phone-alt {
   color: green;
 }
@@ -118,6 +124,7 @@ body {
 .twitter:hover {
   opacity: 0.5;
 }
+/* ICONS END */
 
 .page-header:after {
   background: none repeat scroll #000000;
