@@ -217,24 +217,29 @@ border-bottom: 1px solid #E0E722;
   }
   
   /*NEWS CSS*/
+.news-jumbo{
+  background-color: #777666;
+}  
+
+
 #first-news-img {width: 100%;}
  
 .article-one {
   border-radius: .60rem;
-}
-
-.article-one:hover {
-  color: white;
+  background-color: black;
+  border: 3px solid #FFFC00;
 }
 
 .news-article{
   background-clip: padding-box !important;
   border: 3px solid transparent !important;  
   border-radius: .50rem;
-  background-color: transparent;
+  background-color: black;
+  border: 3px solid #FFFC00;
 }
-/*news slut*/
 
+.news-article:hover{color: white;}
+  /*news slut*/
 
 .active.tabbar{
   background-color: black !important;
@@ -244,3 +249,19 @@ border-bottom: 1px solid #E0E722;
 .tabbar:hover{
   border: 1px solid #E0E722 !important;
 }
+/* FONTS START */
+p{
+    font-family: 'Roboto Slab', serif;
+    color: #f0fccb;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Chivo', sans-serif;
+    color: #FFFC00;
+}
+button{
+    font-family: 'Roboto Slab', sans-serif;
+}
+label{
+    font-family: 'Chivo', sans-serif;  
+}
+/* FONTS END */
