@@ -96,6 +96,9 @@ li:hover{
 .whole-border-sm{
   border: 2px solid #E0E722;
 }
+.bottom-border-sm{
+border-bottom: 1px solid #E0E722;
+}
 /* COLORS & BORDERS END */
 
 .form-group p {
@@ -125,7 +128,7 @@ li:hover{
   font-size: 40px;
 }
 
-.facebook:hover{
+.fa-facebook:hover{
   opacity: 0.5;
 }
 
@@ -246,7 +249,17 @@ li:hover{
 
 }
 
-/*news slut*/
+.news-article:hover{color: white;}
+  /*news slut*/
+
+.active.tabbar{
+  background-color: black !important;
+  border: 1px solid #E0E722 !important;
+}
+
+.tabbar:hover{
+  border: 1px solid #E0E722 !important;
+}
 /* FONTS START */
 p{
     font-family: 'Roboto Slab', serif;
@@ -263,6 +276,3 @@ label{
     font-family: 'Chivo', sans-serif;  
 }
 /* FONTS END */
-
-.news-article:hover{color: white;}
-  /*news slut*/
