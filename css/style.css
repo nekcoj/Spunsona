@@ -230,3 +230,17 @@ li:hover{
   background-color: transparent;
 }
 /*news slut*/
+/* FONTS START */
+p{
+    font-family: 'Roboto Slab', serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Chivo', sans-serif;
+}
+button{
+    font-family: 'Roboto Slab', sans-serif;
+}
+label{
+    font-family: 'Chivo', sans-serif;  
+}
+/* FONTS END */
