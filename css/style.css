@@ -182,13 +182,14 @@ body {
     width:100%;
     object-fit: cover;
   }
-
-  .test{
+  /*  HOW IT WORKS  */
+  .textruta{
     opacity: 0.5;
     background-color: rgb(33, 2, 88);
     color: white;
     padding: 5px;
   }
+  
   /*NEWS CSS*/
 #first-news-img {width: 100%;}
  
