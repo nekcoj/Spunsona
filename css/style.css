@@ -2,6 +2,7 @@ body {
   padding-top: 55px;
   background: #0F0F0F;
 }
+
 /* NAVBAR START */
 .navbar {
   justify-content: flex-start;
@@ -12,8 +13,10 @@ body {
 .navbar-toggler {
   margin-right: 1rem;
 }
+
 .nav-link, .dropdown-item{
   color: #fffc00;
+}
 
 #button-knowmore{
   margin-top: 20px;
@@ -23,34 +26,41 @@ body {
   min-height: 30px;
 }
 
-/*
 video{
   object-fit: cover;
 }
+
 .navbar-toggler {
   margin-right: 1rem;
 }
+
 .fa-bars{
   font-size: 28px;
   color: #FFFC00;
 }
+
 .border-nav{
   border-bottom: 1px solid #fffc00;
 }
+
 li:hover{
   color:#fffc00;
 }
+
 a:hover{
   color: #fffc00;
 }
+
 .dropdown-menu > a:hover{
   background: #000000;
   color: #fffc00;
 }
+
 .dropdown-menu{
   background: #0F0F0F;
 }
 /* NAVBAR END */
+
 .kund-box {
   background: #fffc00;
   color: #FFFC00;
