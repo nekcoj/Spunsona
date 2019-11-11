@@ -30,7 +30,7 @@ body {
     color: #fffc00;
   }
   .border-nav{
-    border-bottom: 2px solid #fffc00;
+    border-bottom: 1px solid #fffc00;
   }
   /* NAVBAR END */
 .question {
@@ -73,7 +73,7 @@ body {
 p{
     font-family: 'Roboto Slab', serif;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6, nav, label{
     font-family: 'Chivo', sans-serif;
 }
 button{

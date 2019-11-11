@@ -64,18 +64,18 @@ header .overlay {
   font-size: 28px;
 }
 a:hover{
-  color:#E0E722;
+  color:#fffc00;
 }
 li:hover{
-  color:#E0E722;
+  color:#fffc00;
 }
 .dropdown-menu > a:hover{
   background: #000000;
-  color: #E0E722;
+  color: #fffc00;
 }
 /* NAVBAR END */
 .kund-box {
-  background: #E0E722;
+  background: #fffc00;
   color: #FFFC00;
 }
 
@@ -85,6 +85,7 @@ li:hover{
 
 .text-box {
   background: #000000;
+  color: #FFFC00;
 }
 
 .text-box > h2 {
@@ -107,8 +108,12 @@ li:hover{
   border-right: 2px solid #0F0F0F;
 }
 .border-nav{
-  border-bottom: 2px solid rgba(224, 231, 34, 0.5);
+  border-bottom: 1px solid #fffc00;
 }
+
+/* .border-nav{
+  border-bottom: 2px solid rgba(255, 252, 0, 0.5);
+} */
 
 /* COLORS & BORDERS START */
 .textcolor1 {
@@ -135,11 +140,11 @@ li:hover{
   background: #0F0F0F;
 }
 .bgcolor5{
-  background: #E0E722;
+  background: #fffc00;
 }
 
 .bottom-border-sm{
-border-bottom: 1px solid #E0E722;
+border-bottom: 1px solid #fffc00;
 }
 /* COLORS & BORDERS END */
 
@@ -299,11 +304,11 @@ header.news{
 
 .active.tabbar{
   background-color: black !important;
-  border: 1px solid #E0E722 !important;
+  border: 1px solid #fffc00 !important;
 }
 
 .tabbar:hover{
-  border: 1px solid #E0E722 !important;
+  border: 1px solid #fffc00 !important;
 }
 .img-lab{opacity: 1.0;
   filter: alpha(opacity=100);
