@@ -61,3 +61,5 @@ $('.hover-box').mouseover(function(e) {
 $('.hover-box').mouseout( function(e) {
   $(this).parent().removeClass('hover');
 });
+
+
