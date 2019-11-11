@@ -13,6 +13,18 @@ body {
 }
 .nav-link, .dropdown-item{
   color: #fffc00;
+
+#button-knowmore{
+  margin-top: 20px;
+}
+
+.big-space{
+  min-height: 30px;
+}
+
+/*
+video{
+  object-fit: cover;
 }
 .navbar-toggler {
   margin-right: 1rem;
