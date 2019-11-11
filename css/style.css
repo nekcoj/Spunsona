@@ -274,10 +274,10 @@ button{
 label{
     font-family: 'Chivo', sans-serif;  
 }
+nav{
+    font-family: 'Chivo', sans-serif;  
+}
 /* FONTS END */
 
 .news-article:hover{color: white;}
   /*news slut*/
-nav{
-    font-family: 'Chivo', sans-serif;  
-}
