@@ -5,10 +5,10 @@ body {
 /* NAVBAR START */
 .navbar {
     justify-content: flex-start;
-    color: #ffd000;
+    color: #fffc00;
   }
   .nav-link, .dropdown-item{
-      color: #ffd000;
+      color: #fffc00;
   }
   .navbar-toggler {
     margin-right: 1rem;
@@ -17,25 +17,25 @@ body {
     font-size: 28px;
   }
   a:hover{
-    color: #ffd000;
+    color: #fffc00;
   }
   li:hover{
-    color:#ffd000;
+    color:#fffc00;
   }
   .dropdown-menu{
     background: #0F0F0F;
   }
   .dropdown-menu > a:hover{
     background: #000000;
-    color: #ffd000;
+    color: #fffc00;
   }
   .border-nav{
-    border-bottom: 2px solid #ffd000;
+    border-bottom: 1px solid #fffc00;
   }
   /* NAVBAR END */
 .question {
     background-color: #4d4c44;
-    color: #ffd000;
+    color: #fffc00;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -64,7 +64,7 @@ body {
 }
 .faq-header {
     margin: 10px auto;
-    color: #ffd000;
+    color: #fffc00;
 }
 .logotype{
     max-height:100px;
@@ -73,7 +73,7 @@ body {
 p{
     font-family: 'Roboto Slab', serif;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6, nav, label{
     font-family: 'Chivo', sans-serif;
 }
 button{
@@ -83,14 +83,13 @@ i{
     color: white;
 }
 i:hover{
-    color: #ffd000;
+    color: #fffc00;
     transition: 1s;
 }
 .picswap > img{
     max-height: 500px;
 }
 .start{
-    height:80vh;
     display: flex;
     align-items: center;
 }
@@ -107,7 +106,7 @@ i:hover{
 .startlinks:hover {
     text-decoration: none;
     color: black;
-    background-color: #ffd000;
+    background-color: #fffc00;
     transition: 1s;
 }
 
