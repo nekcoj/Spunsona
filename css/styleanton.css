@@ -90,7 +90,6 @@ i:hover{
     max-height: 500px;
 }
 .start{
-    height:80vh;
     display: flex;
     align-items: center;
 }
