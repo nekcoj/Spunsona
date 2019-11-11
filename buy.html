@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Chivo%7CRoboto+Slab&display=swap" rel="stylesheet"/>
     <script defer src="js/bootstrap.min.js"></script>
     <script defer src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/6f25f6f9bc.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <!-- Navbar Fixed-->
@@ -60,8 +61,8 @@
     </section>
 
     <section class="buy-formular">
-        <div class="card">
-            <div class="card-body">
+        <div class="card form_textbox">
+            <div class="card-body text-box ">
                 <form class="needs-validation" id="buy-Form" novalidate>
                     <div class="form-group">
                         <label for="validationCustom01">Email address</label>
@@ -90,24 +91,30 @@
                         <div class="valid-feedback"> Ok</div>
                     </div>
 
-                    <button type="submit"  data-toggle="modal" data-target="#exampleModal" class="btn btn-primary">Buy</button>
+                    <button type="submit"  data-toggle="modal" data-target="#exampleModal" class="btn btn-secondary form-button-submit">Buy</button>
 
                     <!-- Modal -->
                     <div  class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
-                            <div class="modal-content">
+                            <div class="modal-content text-box">
                                 <div class="modal-header">
-                                    <h5 class="modal-title">Modal title</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    ...
+                                    <h1>Tack för din beställning!</h1>
+                                    <section class="container">
+                                        <section class="row justify-content-center">
+                                            <section class="col-4 rotate-scale-up">
+                                                <i class="fas fa-4x fa-check-circle icon"></i>
+                                            </section>
+                                        </section>
+                                    </section>
+
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Stänga</button>
                                 </div>
                             </div>
                         </div>
@@ -122,32 +129,7 @@
 
 </main>
 
-<!-- Footer -->
-<footer class="footer mt-auto py-3">
-    <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
-    </div>
-</footer>
-<script>
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (function() {
-        'use strict';
-        window.addEventListener('load', function() {
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            var forms = document.getElementsByClassName('needs-validation');
-            // Loop over them and prevent submission
-            var validation = Array.prototype.filter.call(forms, function(form) {
-                form.addEventListener('submit', function(event) {
-                    if (form.checkValidity() === false) {
-                        event.preventDefault();
-                        event.stopPropagation();
-                    }
-                    form.classList.add('was-validated');
-                }, false);
-            });
-        }, false);
-    })();
-</script>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>

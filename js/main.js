@@ -62,4 +62,6 @@ $('.hover-box').mouseout( function(e) {
   $(this).parent().removeClass('hover');
 });
 
-
+$('#buy-Form').submit(function(e) {
+  e.preventDefault();
+});
