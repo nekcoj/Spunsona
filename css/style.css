@@ -366,7 +366,6 @@ nav{
   outline: none;
   font-size: 15px;
   transition: 1s;
-  font-weight: bold;
 }
 .space{
   min-height: 5px;
@@ -423,4 +422,7 @@ i:hover{
   color: black;
   background-color: #fffc00;
   transition: 1s;
+}
+.lightbulb{
+  cursor:pointer;
 }
