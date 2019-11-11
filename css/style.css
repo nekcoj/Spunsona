@@ -94,6 +94,10 @@ li:hover{
 /* .whole-border-sm{
   border: 2px solid #000000;
 } */
+
+.bottom-border-sm{
+border-bottom: 1px solid #E0E722;
+}
 /* COLORS & BORDERS END */
 
 .form-group p {
@@ -123,7 +127,7 @@ li:hover{
   font-size: 40px;
 }
 
-.facebook:hover{
+.fa-facebook:hover{
   opacity: 0.5;
 }
 
@@ -222,18 +226,39 @@ li:hover{
 .article-one {
   border-radius: .60rem;
   background-color: black;
-  border: 3px solid #FFFC00;
+  
+}
+
+.article-one:hover{
+  border: 2px solid #FFFC00 !important;
+  background-color: rgba(54, 53, 53, 0.247)
 }
 
 .news-article{
-  background-clip: padding-box !important;
-  border: 3px solid transparent !important;  
+  background-clip: padding-box;
+  border: 3px solid transparent;  
   border-radius: .50rem;
   background-color: black;
-  border: 3px solid #FFFC00;
+
 }
 
-/*news slut*/
+.news-article:hover{
+  border: 2px solid #FFFC00 !important;
+  background-color: rgba(54, 53, 53, 0.247)
+
+}
+
+.news-article:hover{color: white;}
+  /*news slut*/
+
+.active.tabbar{
+  background-color: black !important;
+  border: 1px solid #E0E722 !important;
+}
+
+.tabbar:hover{
+  border: 1px solid #E0E722 !important;
+}
 /* FONTS START */
 p{
     font-family: 'Roboto Slab', serif;
