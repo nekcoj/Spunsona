@@ -5,6 +5,7 @@ body {
 /* NAVBAR START */
 .navbar {
   justify-content: flex-start;
+  text-transform: uppercase;
 }
 
 .navbar-toggler {
@@ -14,7 +15,7 @@ body {
   font-size: 28px;
 }
 a:hover{
-  color: #E0E722;
+  text-shadow: 1px 0px #E0E722;
 }
 li:hover{
   color:#E0E722;
@@ -51,15 +52,15 @@ li:hover{
 
 .catwoman{
   background-clip: padding-box; 
-  border-left: 2px solid #E0E722;
+  border-left: 2px solid #0F0F0F;
 }
 
 .batman{
   background-clip: padding-box; 
-  border-right: 2px solid #E0E722;
+  border-right: 2px solid #0F0F0F;
 }
 .border-nav{
-  border-bottom: 2px solid #E0E722;
+  border-bottom: 2px solid rgba(224, 231, 34, 0.5);
 }
 
 /* COLORS & BORDERS START */
@@ -89,13 +90,10 @@ li:hover{
 .bgcolor5{
   background: #E0E722;
 }
-.aboutus{
-  border-left: 5px solid #E0E722;
-  border-right: 5px solid #E0E722;
-}
-.whole-border-sm{
-  border: 2px solid #E0E722;
-}
+
+/* .whole-border-sm{
+  border: 2px solid #000000;
+} */
 /* COLORS & BORDERS END */
 
 .form-group p {
@@ -255,3 +253,6 @@ label{
 
 .news-article:hover{color: white;}
   /*news slut*/
+nav{
+    font-family: 'Chivo', sans-serif;  
+}
