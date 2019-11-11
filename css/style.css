@@ -106,6 +106,14 @@ a:hover{
   background: #fffc00;
 }
 
+/* Tabbar i kontakt */
+ul.nav a:hover { color: #E0E722 !important; }
+ul.nav a:focus { color: #E0E722 !important;}
+
+/* .whole-border-sm{
+  border: 2px solid #000000;
+} */
+
 .bottom-border-sm{
 border-bottom: 1px solid #fffc00;
 }
@@ -270,9 +278,8 @@ border-bottom: 1px solid #fffc00;
   }
   /*  HOW IT WORKS  */
   .textruta{
-    opacity: 0.5;
-    background-color: rgb(33, 2, 88);
-    color: white;
+    background-color: black;
+    color: #f0fccb;
     padding: 5px;
   }
   
@@ -285,7 +292,9 @@ header.news{
 }
 
 #first-news-img {width: 100%;}
- 
+
+
+
 .article-one {
   border-radius: .60rem;
   background-color: #0F0F0F;
