@@ -28,7 +28,7 @@ for (i = 0; i < acc.length; i++) {
 
 // home
 $(document).on('click', '.lightbulb', () => {
-$('.picswap > img, .startlinks, .navbar').toggleClass('hidden');
+$('.picswap > img, .startlinks, .navbar, .welcome').toggleClass('hidden');
 });
 
 
@@ -51,3 +51,13 @@ $('.picswap > img, .startlinks, .navbar').toggleClass('hidden');
     });
   }, false);
 })();
+
+//For who
+$('.hover-box').mouseover(function(e) {
+  console.log("a")
+  $(this).parent().addClass('hover');
+});
+
+$('.hover-box').mouseout( function(e) {
+  $(this).parent().removeClass('hover');
+});
