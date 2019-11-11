@@ -15,7 +15,7 @@ body {
   font-size: 28px;
 }
 a:hover{
-  text-shadow: 1px 0px #E0E722;
+  color:#E0E722;
 }
 li:hover{
   color:#E0E722;
