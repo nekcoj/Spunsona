@@ -66,6 +66,12 @@ $('#buy-Form').submit(function(e) {
   e.preventDefault();
 });
 
+
+$('#contactform').submit(function(e) {
+  e.preventDefault();
+});
+
+
 // Call & init
 $(document).ready(function(){
   $('.slider').each(function(){
