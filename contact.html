@@ -89,7 +89,7 @@
                                         </p>
                                     </section>
                                 </section>
-                                <section class="tab-pane fade textcolor1" id="profile" role="tabpanel" aria-labelledby="profile-tab">        <form class="needs-validation" novalidate>
+                                <section class="tab-pane fade textcolor1" id="profile" role="tabpanel" aria-labelledby="profile-tab">        <form class="needs-validation" id="contactform" novalidate>
                                         <section class="form-row">
                                           <section class="col-12 col-md-6 pt-3">
                                             <label for="validationCustom01">Namn</label>
@@ -121,7 +121,34 @@
                                                     <option>Direkt till papperskorgen</option>
                                                 </select>
                                             </section>
-                                        <button class="btn btn-secondary bgcolor3 mt-1" type="submit">Skicka</button>
+                                        <button class="btn btn-secondary bgcolor3 mt-1" type="submit" data-toggle="modal" data-target="#contactmodal">Skicka</button>
+                                        <!-- Modal -->
+                    <div  class="modal fade" id="contactmodal" tabindex="-1" role="dialog"  aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content text-box">
+                                <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h1 class="text-center">Tack för att du kontaktar oss!</h1>
+                                    <section class="container">
+                                        <section class="row justify-content-center">
+                                            <section class="col-4 rotate-scale-up">
+                                                <i class="fas fa-4x fa-check-circle icon"></i>
+                                            </section>
+                                        </section>
+                                    </section>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                                     </form>
                                 </section>
                             </section>
