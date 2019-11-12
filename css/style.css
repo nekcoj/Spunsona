@@ -4,11 +4,20 @@ body {
 }
 
 /* NAVBAR START */
+
 .navbar {
   justify-content: flex-start;
   color: #fffc00;
   background-color: #0F0F0F;
 }
+
+.navbar.index{
+  justify-content: flex-start;
+  color: #fffc00;
+  background-color: transparent;
+
+}
+
 
 .navbar-toggler {
   margin-right: 1rem;
