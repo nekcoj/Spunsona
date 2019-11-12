@@ -65,7 +65,7 @@
                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2254.47646571724!2d13.007352015323702!3d55.593720911718265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a15c7bfa3f93%3A0x1521620aa817f81d!2sBarkgatan%2C%20214%2022%20Malm%C3%B6!5e0!3m2!1ssv!2sse!4v1572945699124!5m2!1ssv!2sse" width="100%" height="417" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                      </section>
                  </section>
-                 <section class="col-12 col-sm-6 d-flex flex-column">
+                 <section class="col-12 col-sm-6 d-flex flex-column bgcolor1">
                         <ul class="nav nav-tabs bottom-border-sm" id="myTab" role="tablist">
                                 <li class="nav-item">
                                   <a class="nav-link active textcolor1 tabbar" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Adress</a>
@@ -75,7 +75,7 @@
                                 </li>
 
                         </ul>
-                            <section class="tab-content" id="myTabContent">
+                            <section class="tab-content bgcolor1" id="myTabContent">
                                 <section class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                     <section class="textcolor1 bgcolor1 mt-5 ml-5">
                                     <p class="font-weight-bold">Kontaktinformation:</p>
@@ -83,13 +83,13 @@
                                            214 22 Malmö<br>
                                            Sverige<br><br>
                                             <i class="fas fa-phone-alt"></i> 123-456789<br><br><br>
-                                            <i class="fab fa-facebook"></i>
-                                            <i class="insta fab fa-instagram"></i>
+                                            <a href="https://www.facebook.com/spunsona/"><i class="fab fa-facebook"></i></a>
+                                            <a href="https://www.instagram.com/igspunsona/"><i class="insta fab fa-instagram"></i></a>
                                             <i class="twitter fab fa-twitter"></i>
                                         </p>
                                     </section>
                                 </section>
-                                <section class="tab-pane fade textcolor1" id="profile" role="tabpanel" aria-labelledby="profile-tab">        <form class="needs-validation" novalidate>
+                                <section class="tab-pane fade textcolor1" id="profile" role="tabpanel" aria-labelledby="profile-tab">        <form class="needs-validation" id="contactform" novalidate>
                                         <section class="form-row">
                                           <section class="col-12 col-md-6 pt-3">
                                             <label for="validationCustom01">Namn</label>
@@ -108,7 +108,7 @@
                                         </section>
                                         <section class="form-group pt-3">
                                             <label for="validationCustom01">Meddelande</label>
-                                            <textarea class="form-control" id="validationCustom01" rows="3" placeholder="Skriv ditt meddelande här i" required></textarea>
+                                            <textarea class="form-control" id="validationCustom01" rows="2" placeholder="Skriv ditt meddelande här i" required></textarea>
                                                 <section class="valid-feedback">
                                                     OK
                                                 </section>
@@ -121,7 +121,34 @@
                                                     <option>Direkt till papperskorgen</option>
                                                 </select>
                                             </section>
-                                        <button class="btn btn-secondary bgcolor3 mt-1" type="submit">Skicka</button>
+                                        <button class="btn btn-secondary bgcolor3 mt-1" type="submit" data-toggle="modal" data-target="#contactmodal">Skicka</button>
+                                        <!-- Modal -->
+                    <div  class="modal fade" id="contactmodal" tabindex="-1" role="dialog"  aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content text-box">
+                                <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h1 class="text-center">Tack för att du kontaktar oss!</h1>
+                                    <section class="container">
+                                        <section class="row justify-content-center">
+                                            <section class="col-4 rotate-scale-up">
+                                                <i class="fas fa-4x fa-check-circle icon"></i>
+                                            </section>
+                                        </section>
+                                    </section>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                                     </form>
                                 </section>
                             </section>

@@ -18,7 +18,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"><i class="fas fa-bars textcolor1"></i></span>
     </button>
-    <a class="navbar-brand textcolor1" href="index.html"><img class="logopic" src="img/logo2.svg" width="75px" height="auto"></a>
+    <a class="navbar-brand textcolor1" href="index.html"><img class="logopic" src="img/logo2.svg" width="75px" height="auto"></i></a>
     <section class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -26,7 +26,7 @@
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
-                <section class="dropdown-menu whole-border-sm bgcolor4" aria-labelledby="dropdown01">
+                <section class="dropdown-menu bgcolor4" aria-labelledby="dropdown01">
                     <a class="dropdown-item textcolor1" href="products.html">Products</a>
                     <a class="dropdown-item textcolor1" href="forwho.html">For Who</a>
                     <a class="dropdown-item textcolor1" href="howitworks.html">How it works</a>
@@ -55,41 +55,58 @@
     </section>
 </nav>
 <!-- Sidans Innehåll -->
-<main class="container mt-3">
-    <section class="row justify-content-center">
-        <h1 class="page-header mb-5">Products</h1>
-    </section>
-    <section class="row">
-        <section class=" col-sm-6 order-sm-2 col-md-4">
-            <img src="img/produkt/prod1.jpg" class="img-thumbnail">
-        </section>
-        <section class=" col-sm-6 order-sm-3 col-md-4">
-            <img src="img/produkt/prod2.jpg" class="img-thumbnail">
-        </section>
-        <section class=" col-sm-6 order-sm-4 col-md-4 ">
-            <img src="img/produkt/prod3.jpg" class="img-thumbnail">
-        </section>
-        <section class=" col-12 justify-content-center m-3 order-sm-1 order-md-4">
-            <h2 class="font-weight-bold text-center"> Nånting</h2>
-            <p class="lead text-center">
-                Vivamus sagittis lacus
-            </p>
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section>
-        <section class="col-sm-6 order-sm-5 col-md-4">
-            <img src="img/produkt/prod4.jpg"class="img-thumbnail">
-        </section>
-        <section class="col-sm-6 order-sm-5 col-md-4">
-            <img src="img/produkt/prod5.jpg" class="img-thumbnail">
-        </section>
-        <section class="col-sm-6 order-sm-7 col-md-4">
-            <img src="img/produkt/prod6.jpg" class="img-thumbnail">
-        </section>
-    </section>
-</main>
+
+<section class="col-12 d-flex justify-content-center">
+
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 640">
+            <defs>
+              <style>
+                svg {
+                  background-image: url(https://user-images.githubusercontent.com/465414/38976101-0a62803a-4365-11e8-8bdf-1d623736e2c5.png);
+                  background-size: 100% 100%;
+                  background-repeat: no-repeat;
+                  max-width: 900px;
+                  width: 90%;
+                }
+                path {
+                  fill: transparent;
+                  cursor: pointer;
+                  transition: fill 0.2s
+                }
+                svg a:focus,
+                svg a:hover {
+                  outline: none;
+                }
+                svg a:focus path,
+                svg a:hover path {
+                  fill: rgba(30,222,121, 0.25);
+                  cursor: pointer;
+               }
+              </style>
+            </defs>
+            
+             
+            <g>
+        
+                <title>Custom knit hat</title>
+                <path d="M358 229l-16 4-13 8-13 8h-18l-14-20-5-20v-16l9-20 19-16 17-6h15l26 7 8 6-15 12v17l-4 12 2 14 2 10z"/>
+              
+            </g>
+            <g>
+                <title>Parka</title>
+                <path d="M413 212l7 9 25-5 10 8v19l-9 16-6 12 2 15 2 20-10 12-8 31 8 20-7 58-17 8v21h-62l10-69-45-4-24 24-21-22 11-22-3-9 10-3-3-17h10l4-16v-18l4-10 6-15 7-8-8-12 19-13 20-8 16 4 18 4 16-4 11-10 7-16zm-68 246l-16 15 5"/>
+              
+            </g>
+            <g>
+                <title>Pants</title>
+                <path d="M328 470l7 5v7l2 6-1 4 1 7 1 2 2 7-2 7 2 4v11l3 3 12-3 16-7-2-5 3-7 1-8-3-2 3-4-2-4h12l3-3 3-4v-12l-1-13 1-6h-43z"/>
+              
+            </g>
+           
+          </svg>
+  
+    
+</section>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
