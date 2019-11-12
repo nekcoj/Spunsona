@@ -131,8 +131,8 @@ a:hover{
 }
 
 /* Tabbar i kontakt */
-ul.nav a:hover { color: #E0E722 !important; }
-ul.nav a:focus { color: #E0E722 !important;}
+ul.nav a:hover { color: #fffc00 !important; }
+ul.nav a:focus { color: #fffc00 !important;}
 
 /* .whole-border-sm{
   border: 2px solid #000000;
@@ -285,7 +285,7 @@ border-bottom: 1px solid #fffc00;
 .icon{
   height: 150px;
   width: auto;
-  color: #E0E722;
+  color: #fffc00;
 }
 
 
@@ -432,7 +432,7 @@ header.news{
 /* FONTS START */
 p{
     font-family: 'Roboto Slab', serif;
-    color: #f0fccb;
+    color: #ffffff;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Chivo', sans-serif;
@@ -560,7 +560,7 @@ nav{
     text-align:center;
     line-height:46px;
  
-    background: #E0E722; /* @orange */
+    background: #fffc00; /* @orange */
     border: 1px solid black;
     border-radius: 50%;
      
