@@ -161,3 +161,10 @@ function drags(dragElement, resizeElement, container) {
     resizeElement.removeClass('resizable');
   });
 }
+
+$(function() {
+  $('.img_modal').on('click', function() {
+    $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+    $('#img_modal').modal('show');
+  });
+});
