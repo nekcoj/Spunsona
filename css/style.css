@@ -590,3 +590,7 @@ nav{
   font-family: 'Chivo', sans-serif;
 
 }
+
+.carousel-item img{
+  max-height: 200px;
+}
