@@ -588,5 +588,10 @@ nav{
   height: 25px;
   text-align: center;
   font-family: 'Chivo', sans-serif;
-
 }
+
+.imagepreview{
+  width: 100%;
+  height: auto;
+}
+
