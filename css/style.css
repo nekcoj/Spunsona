@@ -330,12 +330,14 @@ header.news{
 .news-article:hover{
   border: 1px solid rgba(214, 181, 31, 0.5) !important;
   background-color: rgba(54, 53, 53, 0.247);
-  box-shadow: 0 10px 6px -6px #FFFC00;
 
 }
 
 .news-article:hover{color: white;}
 
+.join-us-btn{
+  min-width: 100%;
+}
 /*NEWS END*/
 
 
