@@ -220,9 +220,9 @@ border-bottom: 1px solid #fffc00;
   position: absolute;
   color: #aaa;
   z-index: 500;
-  text-align: center;
   padding-top: 2%;
-  right: 7%;
+  right: 2%;
+  font-size:  2.5vw;
 }
 
 .forwho-innerbox1{
@@ -231,7 +231,6 @@ border-bottom: 1px solid #fffc00;
 
 .forwho-header{
   padding: 1%;
-
   width: 100%;
   color: white;
 }
